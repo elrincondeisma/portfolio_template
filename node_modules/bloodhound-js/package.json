@@ -1,0 +1,39 @@
+{
+  "name": "bloodhound-js",
+  "version": "1.2.3",
+  "description": "bloodhound.js for node and browser",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server -c --port=7788",
+    "test": "tape tests/*.js"
+  },
+  "author": "Wang Zuo",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "object-assign": "^4.0.1",
+    "storage2": "^0.1.0",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "keywords": [
+    "bloodhound",
+    "index",
+    "node",
+    "search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqx/bloodhound.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pqx/bloodhound/issues"
+  },
+  "homepage": "https://github.com/pqx/bloodhound#readme"
+}

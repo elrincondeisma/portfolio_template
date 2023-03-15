@@ -1,0 +1,42 @@
+{
+  "menu": [
+    {
+      "name": "Home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "url" :"/admin"
+    },
+    {
+      "name": "Sobre mi",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "url" :"/admin"
+    },
+    {
+      "name": "Resumen",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "url" :"/admin"
+    },
+    {
+      "name": "Trabajos",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "url" :"/admin"
+    },
+    {
+      "name": "Blogs",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "url" :"/admin"
+    },
+    
+    
+    {
+      "name": "Ver pagina",
+      "icon": "menu-icon tf-icons bx bx-user-pin",
+      "slug": "dashboard",
+      "url" :"/"
+    }
+  ]
+}

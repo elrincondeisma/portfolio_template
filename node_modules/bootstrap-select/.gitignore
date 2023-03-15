@@ -1,0 +1,14 @@
+# OS or Editor folders
+.DS_Store
+.idea
+
+# Folders to ignore
+node_modules
+bower_components
+.sass-cache
+
+# Dist zip
+bootstrap-select-*.zip
+dist/
+
+docs/site

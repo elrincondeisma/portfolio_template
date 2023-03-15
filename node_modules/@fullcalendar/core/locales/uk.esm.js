@@ -1,0 +1,24 @@
+var l73 = {
+    code: 'uk',
+    week: {
+        dow: 1,
+        doy: 7, // The week that contains Jan 1st is the first week of the year.
+    },
+    buttonText: {
+        prev: 'Попередній',
+        next: 'далі',
+        today: 'Сьогодні',
+        month: 'Місяць',
+        week: 'Тиждень',
+        day: 'День',
+        list: 'Порядок денний',
+    },
+    weekText: 'Тиж',
+    allDayText: 'Увесь день',
+    moreLinkText(n) {
+        return '+ще ' + n + '...';
+    },
+    noEventsText: 'Немає подій для відображення',
+};
+
+export { l73 as default };

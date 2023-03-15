@@ -1,0 +1,1 @@
+//! Fix: If horizontal layout and selected layout is semi-dark then set layout default

@@ -1,0 +1,44 @@
+{
+  "name": "jkanban",
+  "version": "1.3.1",
+  "description": "Javascript plugin for Kanban boards",
+  "main": "jkanban.js",
+  "watch": {
+    "build": [
+      "jkanban.js",
+      "jkanban.css"
+    ]
+  },
+  "scripts": {
+    "watch_build": "npm-watch build",
+    "build": "npm run scripts && npm run styles",
+    "scripts": "browserify ./jkanban.js -o dist/jkanban.js && uglifyjs -m -c -o dist/jkanban.min.js dist/jkanban.js",
+    "styles": "npm-css ./jkanban.css > dist/jkanban.css && cleancss dist/jkanban.css -o dist/jkanban.min.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riktar/jkanban.git"
+  },
+  "homepage": "http://www.riccardotartaglia.it/jkanban",
+  "keywords": [
+    "kanban",
+    "js",
+    "drag",
+    "todo list",
+    "javascript",
+    "plugin"
+  ],
+  "author": "Riccardo Tartaglia",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "dragula": "^3.7.3",
+    "npm-watch": "^0.7.0"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "clean-css-cli": "^4.3.0",
+    "npm-css": "0.2.3",
+    "uglify-es": "^3.3.9"
+  }
+}
